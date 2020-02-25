@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: solid 2px black; */
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    margin-top: 2em;
+}
+
+p {
+    padding: .5em;
+    /* border: solid 2px black; */
+    font-size: 1.5em;
+    /* text-align: center; */
+    margin: 1em auto;
+    /* height: 100%; */
+}
+
+.container {
+    width: 70%;
+    height: 13em;
+    margin: auto;
+    text-align: center;
+    border-radius: 1em;
+    background-color: lightgray;
+    box-shadow: .25em .3em .9em gray;
+}
+
+.btn {
+    padding: .5em;
+    border-radius: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    transition-duration: .2s;
+    background-color: white;
+}
+
+.btn:hover {
+    background-color: lightgreen;
+}
